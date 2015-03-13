@@ -25,7 +25,10 @@ cxmanage  ipmitool  pyipmi  README.md
 root@ubuntu:~/sls-management-tools#
 ```
 
-## configure and install ipmitool (specific version for the SLS platform)
+## configure and install ipmitool 
+
+This is a specific version of ipmitool for the SLS platform.
+
 ```
 root@ubuntu:~/sls-management-tools# cd pyipmi/
 root@ubuntu:~/sls-management-tools/pyipmi# python setup.py install
@@ -64,5 +67,5 @@ Node 0, Port 2: 30:0e:d5:c7:51:d5
 Node 1, Port 0: 30:0e:d5:c7:51:d6
 Node 1, Port 1: 30:0e:d5:c7:51:d7
 Node 1, Port 2: 30:0e:d5:c7:51:d8
-root@ATG-SLS-GW:~#
+root@ubuntu:~#
 ```
